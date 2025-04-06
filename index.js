@@ -4,7 +4,11 @@ import { romanToInt } from "./13.js";
 import { longestCommonPrefix } from "./14.js";
 import { isValid } from "./20.js";
 import { removeDuplicates } from "./26.js";
+import { removeElement } from "./27.js";
+import { strStr } from "./28.js";
 
-const input = [1,1,2]
+const input = [4,5]
 
-console.log(removeDuplicates(input));
+console.log(strStr("hello", "ll"));
+
+// console.log(input)
