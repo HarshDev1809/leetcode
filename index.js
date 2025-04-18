@@ -9,9 +9,14 @@ import { strStr } from "./28.js";
 import { searchInsert } from "./35.js";
 import { lengthOfLastWord } from "./58.js";
 import { plusOne } from "./66.js";
+import { addBinary } from "./67.js";
+import { mySqrt } from "./69.js";
+import { lengthOfLongestSubstring } from "./3.js";
 
-const input = [9,9,9];
 
-console.log(plusOne(input));
+
+const input = "dvdf";
+
+console.log(lengthOfLongestSubstring(input));
 
 // console.log(input)
