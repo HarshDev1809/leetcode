@@ -11,12 +11,16 @@ import { lengthOfLastWord } from "./58.js";
 import { plusOne } from "./66.js";
 import { addBinary } from "./67.js";
 import { mySqrt } from "./69.js";
-import { lengthOfLongestSubstring } from "./3.js";
+import { countAndSay } from "./38.js";
+import { numRabbits } from "./781.js";
+import { createCounter } from "./2665.js";
 
 
+const counter = createCounter(5)
+const input = [10,10,10];
 
-const input = "dvdf";
-
-console.log(lengthOfLongestSubstring(input));
+console.log(counter.increment());
+console.log(counter.reset())
+console.log(counter.decrement())
 
 // console.log(input)
