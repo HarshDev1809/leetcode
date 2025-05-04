@@ -15,8 +15,10 @@ import { countAndSay } from "./38.js";
 import { numRabbits } from "./781.js";
 import { createCounter } from "./2665.js";
 import {numberOfArrays} from "./2145.js"
+import { mergeAlternately } from "./1768/index.js";
 
-const input = [1,-3,4];
+const word1 = "abc"
+const word2 = "pqr"
 
-console.log(numberOfArrays(input,1,6))
+console.log(mergeAlternately(word1,word2))
 
